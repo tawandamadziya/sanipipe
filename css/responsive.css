@@ -98,6 +98,17 @@
   .info_section .social_box {
     margin-bottom: 25px;
   }
+  .team{
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .team-txt{
+    background-color: #003471;
+    color: white;
+  }
 
 }
 

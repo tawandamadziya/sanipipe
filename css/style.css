@@ -107,6 +107,15 @@ a:focus {
   background-color: #003471;
 }
 
+.team{
+  text-align: center;
+  align-content: center;
+}
+.team-txt{
+  background-color: #003471;
+  color: white;
+}
+
 .sub_page .header_section .header_bottom {
   background-color: #003471;
 }
