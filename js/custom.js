@@ -63,3 +63,24 @@ function myMap() {
 $(document).ready(function () {
     $('select').niceSelect();
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const logosContainer = document.querySelector(".logos2");
+    const logosWidth = logosContainer.scrollWidth; // Total width of the logos
+    const viewportWidth = window.innerWidth; // Width of the viewport
+  
+    // Define speed factors for mobile and PC
+    const mobileSpeedFactor = 170; // Slower speed for mobile
+    const desktopSpeedFactor = 50; // Faster speed for desktop
+  
+    // Determine the speed factor based on viewport width
+    const speedFactor = viewportWidth <= 768 ? mobileSpeedFactor : desktopSpeedFactor;
+  
+    // Calculate animation duration based on total width and speed factor
+    const animationDuration = (logosWidth + viewportWidth) / speedFactor;
+  
+    // Apply the animation duration
+    logosContainer.style.animationDuration = `${animationDuration}s`;
+  });
+  
+  
+  

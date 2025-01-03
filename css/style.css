@@ -210,11 +210,11 @@ a:focus {
 
 .logos2 {
   display: flex;
-  animation: marquee2 45s linear infinite;
+  animation: marquee2 linear infinite;
 }
 
 .logos2 img {
-  height: 150px; /* Adjust height as needed */
+  height: 150px;
   margin: 0 20px;
 }
 
@@ -222,10 +222,11 @@ a:focus {
   0% {
     transform: translateX(100%);
   }
-  50% {
-    transform: translateX(-200%);
+  100% {
+    transform: translateX(-1500%);
   }
 }
+
 
 
 .header_section .header_top .contact_nav a i {
