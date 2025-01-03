@@ -166,6 +166,68 @@ a:focus {
           flex: 1;
 }
 
+.clients-section {
+  background-color: #252525;
+  padding: 20px 0;
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.logos {
+  display: flex;
+  animation: marquee 25s linear infinite;
+}
+
+.logos img {
+  height: 70px; /* Adjust height as needed */
+  margin: 0 20px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.clients-section2 {
+  background-color: #252525;
+  padding: 20px 0;
+}
+
+.marquee2 {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.logos2 {
+  display: flex;
+  animation: marquee2 45s linear infinite;
+}
+
+.logos2 img {
+  height: 150px; /* Adjust height as needed */
+  margin: 0 20px;
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+}
+
+
 .header_section .header_top .contact_nav a i {
   margin-right: 5px;
   background-color: #159ec0;
