@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const viewportWidth = window.innerWidth; // Width of the viewport
   
     // Define speed factors for mobile and PC
-    const mobileSpeedFactor = 170; // Slower speed for mobile
+    const mobileSpeedFactor = 70; // Slower speed for mobile
     const desktopSpeedFactor = 50; // Faster speed for desktop
   
     // Determine the speed factor based on viewport width
